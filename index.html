@@ -9,9 +9,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <!-- Home section -->
-    <section class="home">
-
+    <main class="min-h-screen bg-[#010313] bg-[url(asset/background.png)] bg-no-repeat bg-center">
+        <!-- Home section -->
+    <section>
+        <div class="home flex flex-col justify-center items-center min-h-screen text-white gap-4">
+            <h1 class="text-8xl font-black uppercase text-center text-white">Keyboard practice game</h1>
+            <p class="text-xl font-medium">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+            <button class="bg-white text-black px-8 py-4 rounded-md font-semibold">PLAY NOW</button>
+        </div>
     </section>
 
     <!-- Playground -->
@@ -21,6 +26,7 @@
 
      <!-- score -->
       <section class="score"></section>
+    </main>
     
     <script src="script.js"></script>
 </body>
